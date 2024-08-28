@@ -24,7 +24,7 @@ os.makedirs('anomalous_clips', exist_ok=True)  # Folder for video clips
  
 # Load environment variables
 load_dotenv()
-genai.configure(api_key='AIzaSyCRU31GS3v7eiqXLPR4gAKRigbIB2i_L4E')
+genai.configure(api_key='api_key')
  
 # Load autoencoder model
 model = tf.keras.models.load_model("autoencoder_video_complex.h5")
